@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@600&family=Otomanopee+One&display=swap');
+
+body ,html{
+  margin: 0;
+  font-family: 'Montserrat', 'Nunito','Otomanopee One' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+}
+
+.nav-link{
+  color: black !important;
+}
+
+.navbar-brand{
+  color: black !important;
+  font-weight: bold ;
+}
+
+.flex-container{
+  display: flex !important;
+}
+
+.mr-0 {
+  margin-right: 0px !important;
+}
+
+.hero-container {
+  display: flex;
+  padding: 60px 100px 40px;
+  justify-content: space-between;
+  background-color: #06285e;
+  color: white;
+  position: relative;
+}
+
+.hero {
+  max-width: 700px;
+  padding-top: 50px;
+}
+
+.hero > p {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.polygon-img {
+  width: 230px;
+  margin: 0px 30px 30px;
+}
+
+.eth-home-img {
+  position: absolute;
+  width: 60px;
+  bottom: 50px;
+  right: 40px;
+}
+
+.home-img-container {
+  display: flex;
+}
+
+/* .home-img-container > img {
+  width: 100px;
+  margin: 20px
+} */

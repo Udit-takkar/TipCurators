@@ -1,0 +1,139 @@
+.container-post {
+  padding: 40px 100px;
+  background-color: #06285e;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.container-post > p {
+  font-size: 12px;
+}
+
+.tip-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 10px 10px;
+  text-align: center;
+  box-sizing: border-box;
+
+  background-color: white;
+
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+.tip-container > p {
+  color: #2a2e31;
+  font-size: 14px;
+}
+
+.tip-icon-container {
+  margin-top: -40px;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.tip-icon-container > p {
+  margin-bottom: 3px;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.input-container {
+  display: flex;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  background: white;
+  /* margin-top: -50px; */
+}
+
+.input-container > input {
+  border: none;
+  border-bottom: 1px solid #24292e;
+  width: 150px;
+  height: 45px;
+  padding: 10px;
+  color: rgb(49, 49, 49);
+  text-align: center;
+}
+
+.input-container > span {
+  border: 1px solid #dcdcdc;
+  color: black;
+  width: 50px;
+  height: 55px;
+  background: white;
+  line-height: 45px;
+  border-radius: 3px;
+}
+
+.tip-container > button {
+  width: 200px;
+  background: #0d49aa;
+  color: white;
+
+  border: none;
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.tip-img {
+  width: 250px;
+}
+
+.markdown-container {
+  padding: 40px;
+}
+
+.eth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.eth-container > p {
+  color: #24292e;
+  margin: 0;
+  font-size: 14px;
+}
+
+.eth-img {
+  width: 25px;
+}
+
+.tip-container > .address {
+  font-size: 12px;
+  margin: 0;
+}
+
+.author-container {
+    margin-bottom: 20px;
+    
+}
+
+.author-container > h3 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.author {
+    font-weight: 400;
+    font-size: 13px;
+    color: #24292ea1;
+}
+
